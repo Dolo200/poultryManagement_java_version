@@ -4,12 +4,12 @@ import dao.ChickenGroupFacade;
 import dao.PoultryFarmFacade;
 import dao.UsersFacade;
 import dao.FarmStaffFacade;
-import dao.VaccinationFacade;               // ✅ ADDED
+import dao.VaccinationFacade;              
 import models.ChickenGroup;
 import models.PoultryFarm;
 import models.Users;
 import models.FarmStaff;
-import models.Vaccination;                  // ✅ ADDED (already present but ensure import)
+import models.Vaccination;                  
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
